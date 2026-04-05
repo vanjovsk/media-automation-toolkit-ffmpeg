@@ -21,8 +21,8 @@ Install the Homebrew package manager:
 
 Configure the Shell Environment (ZSH):
 \`\`\`bash
-echo >> /Users/vanja/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/vanja/.zprofile
+echo >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 \`\`\`
 
